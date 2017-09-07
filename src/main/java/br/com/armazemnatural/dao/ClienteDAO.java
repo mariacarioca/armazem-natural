@@ -10,10 +10,11 @@
  * Academia do Java
  * 
  */
-package br.com.globalcode.dao;
+package br.com.armazemnatural.dao;
 
-import br.com.globalcode.beans.Cliente;
-import br.com.globalcode.util.GlobalcodeException;
+import br.com.armazemnatural.beans.Cliente;
+import br.com.armazemnatural.util.GlobalcodeException;
+
 import java.util.List;
 
 public interface ClienteDAO {

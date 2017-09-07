@@ -4,7 +4,7 @@
  * Academia do Java
  * 
  */
-package br.com.globalcode.gui;
+package br.com.armazemnatural.gui;
 
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;

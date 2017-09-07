@@ -5,7 +5,7 @@
  *
  *
  */
-package br.com.globalcode.dao;
+package br.com.armazemnatural.dao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,9 +15,11 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import br.com.globalcode.beans.Cliente;
-import br.com.globalcode.util.GlobalcodeException;
-import br.com.globalcode.visitor.ListaArquivosVisitor;
+
+import br.com.armazemnatural.beans.Cliente;
+import br.com.armazemnatural.util.GlobalcodeException;
+import br.com.armazemnatural.visitor.ListaArquivosVisitor;
+
 import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;

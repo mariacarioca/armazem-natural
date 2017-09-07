@@ -4,16 +4,16 @@
  * Academia do Java
  * 
  */
-package br.com.globalcode.gui;
+package br.com.armazemnatural.gui;
 
 import java.util.List;
 
 import javax.swing.JComboBox;
 
-import br.com.globalcode.beans.Cliente;
-import br.com.globalcode.dao.ClienteDAO;
-import br.com.globalcode.dao.ClienteDAOSerialization;
-import br.com.globalcode.util.GlobalcodeException;
+import br.com.armazemnatural.beans.Cliente;
+import br.com.armazemnatural.dao.ClienteDAO;
+import br.com.armazemnatural.dao.ClienteDAOSerialization;
+import br.com.armazemnatural.util.GlobalcodeException;
 
 /**
  * @author Globalcode

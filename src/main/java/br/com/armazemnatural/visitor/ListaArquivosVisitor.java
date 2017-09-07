@@ -1,4 +1,4 @@
-package br.com.globalcode.visitor;
+package br.com.armazemnatural.visitor;
 
 import java.io.IOException;
 import java.nio.file.FileVisitResult;

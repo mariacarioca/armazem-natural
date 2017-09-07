@@ -5,7 +5,7 @@
  * 
  * 
  */
-package br.com.globalcode.beans;
+package br.com.armazemnatural.beans;
 
 
 

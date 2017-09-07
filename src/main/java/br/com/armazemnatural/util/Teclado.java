@@ -1,4 +1,4 @@
-package br.com.globalcode.util;
+package br.com.armazemnatural.util;
 
 import java.io.*;
 

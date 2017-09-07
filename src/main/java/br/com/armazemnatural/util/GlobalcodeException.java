@@ -1,7 +1,7 @@
 /**
  * @author Globalcode
  */
-package br.com.globalcode.util;
+package br.com.armazemnatural.util;
 
 public class GlobalcodeException extends Exception {
 

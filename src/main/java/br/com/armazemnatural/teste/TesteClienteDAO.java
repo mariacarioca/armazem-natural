@@ -7,14 +7,15 @@
  * 
  * 
  */
-package br.com.globalcode.teste;
+package br.com.armazemnatural.teste;
 
-import br.com.globalcode.dao.*;
+import br.com.armazemnatural.beans.Cliente;
+import br.com.armazemnatural.dao.*;
+import br.com.armazemnatural.util.GlobalcodeException;
+import br.com.armazemnatural.util.Teclado;
+
 import java.io.IOException;
 import java.util.List;
-import br.com.globalcode.beans.Cliente;
-import br.com.globalcode.util.GlobalcodeException;
-import br.com.globalcode.util.Teclado;
 
 public class TesteClienteDAO {
 
