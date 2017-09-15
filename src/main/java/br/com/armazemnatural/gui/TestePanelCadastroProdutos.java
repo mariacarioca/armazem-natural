@@ -13,16 +13,16 @@ import javax.swing.JOptionPane;
  * @author Globalcode
  * 
  */
-public class TestePanelCadastroClientes extends JFrame {
+public class TestePanelCadastroProdutos extends JFrame {
 
-    public TestePanelCadastroClientes(String titulo) {
+    public TestePanelCadastroProdutos(String titulo) {
         super(titulo);
         // Indica que quando a janela for fechada, a execuçao da classe
         // sera finalizada, caso contrario, a classe continuara na memoria
         // depois que a janela for fechada
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         try {
-            this.getContentPane().add(new PanelCadastroClientes());
+            this.getContentPane().add(new PanelCadastroProdutos());
             super.setSize(300, 250);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, e.getMessage(), "Mensagem de Erro", JOptionPane.OK_OPTION);
@@ -31,7 +31,7 @@ public class TestePanelCadastroClientes extends JFrame {
     }
 
     public static void main(String[] args) {
-        TestePanelCadastroClientes gf = new TestePanelCadastroClientes("Teste Panel Cadastro Clientes");
+        TestePanelCadastroProdutos gf = new TestePanelCadastroProdutos("Teste Panel Cadastro Produtos");
         gf.setVisible(true);
     }
 }
